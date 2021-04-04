@@ -1,0 +1,5 @@
+url = "http://naver.com"
+a = url.replace("http://","")
+a = a[:5]
+password = a[:3] + str(len(a)) + str(a.count("e")) + "!"
+print("생성된 비밀번호 : "+ password)
