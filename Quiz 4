@@ -1,0 +1,14 @@
+from random import *
+a = range(1,21)
+a = list(a)
+
+print(a)
+shuffle(a)
+print(a)
+
+b = sample(a, 4)
+
+print(" -- 당첨자 발표 -- ")
+print("치킨 당첨자 : {0}".format(b[0]))
+print("커피 당첨자 : {0}".format(b[1:]))
+print(" -- 축하합니다 --")
